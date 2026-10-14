@@ -21,7 +21,7 @@ clear all;
 close all;
 
 % Load the audio signal
-[data, fs] = audioread("file_example_WAV_1MG.wav");
+[data, fs] = audioread("file_example.wav");
 x = data;
 x = x(:,1);
 x = x(1 : 512);
